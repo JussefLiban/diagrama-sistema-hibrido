@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 690" width="960" height="690" font-family="Arial, Helvetica, sans-serif">
-<rect width="960" height="690" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 712" width="960" height="712" font-family="Arial, Helvetica, sans-serif">
+<rect width="960" height="712" fill="#ffffff"/>
 <text x="30" y="34" font-size="20" font-weight="bold" fill="#1a1a1a">Contacto del detector aislado con un relay de 2 polos, leído por el NB773</text>
 
 <!-- 12 V supply terminals -->
@@ -63,18 +63,14 @@
 <!-- Zone wiring -->
 <line x1="560" y1="198" x2="560" y2="394" stroke="#0F6E56" stroke-width="2.5"/>
 <line x1="560" y1="526" x2="560" y2="570" stroke="#0F6E56" stroke-width="2.5"/>
-<line x1="560" y1="570" x2="590" y2="570" stroke="#0F6E56" stroke-width="2.5"/>
-<rect x="590" y="558" width="70" height="24" fill="#fff" stroke="#0F6E56" stroke-width="2.5"/>
-<text x="625" y="602" text-anchor="middle" font-size="13" fill="#085041">R de alarma</text>
-<text x="625" y="618" text-anchor="middle" font-size="12" fill="#555">(valor por confirmar)</text>
-<line x1="660" y1="570" x2="740" y2="570" stroke="#0F6E56" stroke-width="2.5"/>
+<line x1="560" y1="570" x2="740" y2="570" stroke="#0F6E56" stroke-width="2.5"/>
 <line x1="740" y1="570" x2="740" y2="198" stroke="#0F6E56" stroke-width="2.5"/>
 <!-- EOL resistor across zone lines -->
 <line x1="560" y1="290" x2="610" y2="290" stroke="#0F6E56" stroke-width="2.5"/>
 <rect x="610" y="278" width="70" height="24" fill="#fff" stroke="#0F6E56" stroke-width="2.5"/>
 <line x1="680" y1="290" x2="740" y2="290" stroke="#0F6E56" stroke-width="2.5"/>
 <text x="645" y="266" text-anchor="middle" font-size="13" fill="#085041">Resistencia de fin de línea</text>
-<text x="645" y="322" text-anchor="middle" font-size="12" fill="#555">(valor por confirmar)</text>
+<text x="645" y="322" text-anchor="middle" font-size="12" fill="#555">(20 k a 51 k ohm)</text>
 
 <!-- Pole 2 -->
 <circle cx="860" cy="400" r="6" fill="#fff" stroke="#2C2C2A" stroke-width="2"/>
@@ -90,6 +86,7 @@
 <text x="860" y="630" text-anchor="middle" font-size="12" fill="#555">(el otro cable vuelve a 0 V)</text>
 
 <!-- notes -->
-<text x="30" y="662" font-size="14" fill="#1a1a1a">El polo 1 funciona como un pulsador manual para el NB773. El polo 2 da energía a la sirena de ese depa. Los dos polos están aislados.</text>
-<text x="30" y="680" font-size="13" fill="#555">Varios detectores en el mismo depa: conecta sus contactos Relay A / Relay B en paralelo a la misma bobina.</text>
+<text x="30" y="660" font-size="14" fill="#1a1a1a">El polo 1 funciona como un pulsador manual para el NB773: contacto cerrado (cortocircuito) = alarma.</text>
+<text x="30" y="679" font-size="14" fill="#1a1a1a">El polo 2 da energía a la sirena de ese depa. Los dos polos están aislados.</text>
+<text x="30" y="698" font-size="13" fill="#555">Varios detectores en el mismo depa: conecta sus contactos Relay A / Relay B en paralelo a la misma bobina.</text>
 </svg>
