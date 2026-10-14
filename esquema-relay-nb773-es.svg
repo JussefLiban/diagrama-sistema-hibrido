@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 690" width="960" height="690" font-family="Arial, Helvetica, sans-serif">
+<rect width="960" height="690" fill="#ffffff"/>
+<text x="30" y="34" font-size="20" font-weight="bold" fill="#1a1a1a">Contacto del detector aislado con un relay de 2 polos, leído por el NB773</text>
+
+<!-- 12 V supply terminals -->
+<text x="40" y="332" font-size="14" font-weight="bold" fill="#185FA5">Fuente +12 V</text>
+<circle cx="60" cy="350" r="6" fill="#fff" stroke="#185FA5" stroke-width="2"/>
+<text x="40" y="572" font-size="14" font-weight="bold" fill="#185FA5">Fuente 0 V</text>
+<circle cx="60" cy="590" r="6" fill="#fff" stroke="#185FA5" stroke-width="2"/>
+
+<!-- Detector -->
+<circle cx="320" cy="150" r="82" fill="#F1EFE8" stroke="#2C2C2A" stroke-width="2.5"/>
+<text x="320" y="140" text-anchor="middle" font-size="18" font-weight="bold" fill="#2C2C2A">NB802-4-12</text>
+<text x="320" y="164" text-anchor="middle" font-size="14" fill="#444">detector de humo</text>
+<text x="320" y="184" text-anchor="middle" font-size="14" fill="#444">4 hilos, 12 V</text>
+<!-- detector power wires -->
+<line x1="238" y1="120" x2="170" y2="120" stroke="#185FA5" stroke-width="2.5"/>
+<line x1="170" y1="120" x2="170" y2="350" stroke="#185FA5" stroke-width="2.5"/>
+<line x1="170" y1="350" x2="66" y2="350" stroke="#185FA5" stroke-width="2.5"/>
+<line x1="240" y1="172" x2="130" y2="172" stroke="#185FA5" stroke-width="2.5"/>
+<line x1="130" y1="172" x2="130" y2="590" stroke="#185FA5" stroke-width="2.5"/>
+<line x1="130" y1="590" x2="66" y2="590" stroke="#185FA5" stroke-width="2.5"/>
+<text x="178" y="112" font-size="13" font-weight="bold" fill="#185FA5">+12 V</text>
+<text x="178" y="164" font-size="13" font-weight="bold" fill="#185FA5">0 V</text>
+
+<!-- Relay A / B terminals of the detector -->
+<text x="425" y="246" font-size="15" font-weight="bold" fill="#854F0B">Relay A</text>
+<text x="196" y="262" font-size="15" font-weight="bold" fill="#854F0B">Relay B</text>
+<path d="M 370 218 L 412 218 L 412 380" fill="none" stroke="#BA7517" stroke-width="2.5"/>
+<path d="M 282 224 L 250 224 L 250 350" fill="none" stroke="#BA7517" stroke-width="2.5"/>
+<line x1="250" y1="350" x2="170" y2="350" stroke="#BA7517" stroke-width="2.5"/>
+
+<!-- Coil of the isolation relay -->
+<circle cx="412" cy="392" r="6" fill="#fff" stroke="#2C2C2A" stroke-width="2"/>
+<rect x="394" y="404" width="36" height="64" fill="#fff" stroke="#2C2C2A" stroke-width="2.5"/>
+<circle cx="412" cy="480" r="6" fill="#fff" stroke="#2C2C2A" stroke-width="2"/>
+<line x1="412" y1="486" x2="412" y2="610" stroke="#2C2C2A" stroke-width="2.5"/>
+<line x1="412" y1="610" x2="130" y2="610" stroke="#2C2C2A" stroke-width="2.5"/>
+<line x1="130" y1="610" x2="130" y2="590" stroke="#2C2C2A" stroke-width="2.5"/>
+<text x="378" y="436" text-anchor="end" font-size="14" font-weight="bold" fill="#2C2C2A">Bobina 12 V</text>
+<text x="378" y="456" text-anchor="end" font-size="13" fill="#555">relay de 2 polos</text>
+
+<!-- Dashed mechanical link -->
+<line x1="430" y1="436" x2="890" y2="436" stroke="#2C2C2A" stroke-width="1.8" stroke-dasharray="7 6"/>
+
+<!-- Pole 1 -->
+<circle cx="560" cy="400" r="6" fill="#fff" stroke="#2C2C2A" stroke-width="2"/>
+<circle cx="560" cy="520" r="6" fill="#fff" stroke="#2C2C2A" stroke-width="2"/>
+<line x1="560" y1="520" x2="590" y2="412" stroke="#2C2C2A" stroke-width="3"/>
+<text x="530" y="406" text-anchor="end" font-size="14" font-weight="bold" fill="#2C2C2A">POLO 1</text>
+
+<!-- NB773 -->
+<rect x="500" y="62" width="300" height="130" fill="#E1F5EE" stroke="#0F6E56" stroke-width="2.5"/>
+<text x="650" y="96" text-anchor="middle" font-size="19" font-weight="bold" fill="#085041">NB773</text>
+<text x="650" y="120" text-anchor="middle" font-size="14" fill="#085041">mini módulo de zona (una dirección por depa)</text>
+<text x="650" y="146" text-anchor="middle" font-size="13" fill="#085041">lazo desde el panel (arriba)</text>
+<line x1="650" y1="62" x2="650" y2="40" stroke="#888780" stroke-width="3"/>
+<circle cx="560" cy="192" r="6" fill="#fff" stroke="#0F6E56" stroke-width="2"/>
+<circle cx="740" cy="192" r="6" fill="#fff" stroke="#0F6E56" stroke-width="2"/>
+<text x="548" y="214" text-anchor="end" font-size="13" font-weight="bold" fill="#085041">zona +</text>
+<text x="752" y="214" text-anchor="start" font-size="13" font-weight="bold" fill="#085041">zona -</text>
+
+<!-- Zone wiring -->
+<line x1="560" y1="198" x2="560" y2="394" stroke="#0F6E56" stroke-width="2.5"/>
+<line x1="560" y1="526" x2="560" y2="570" stroke="#0F6E56" stroke-width="2.5"/>
+<line x1="560" y1="570" x2="590" y2="570" stroke="#0F6E56" stroke-width="2.5"/>
+<rect x="590" y="558" width="70" height="24" fill="#fff" stroke="#0F6E56" stroke-width="2.5"/>
+<text x="625" y="602" text-anchor="middle" font-size="13" fill="#085041">R de alarma</text>
+<text x="625" y="618" text-anchor="middle" font-size="12" fill="#555">(valor por confirmar)</text>
+<line x1="660" y1="570" x2="740" y2="570" stroke="#0F6E56" stroke-width="2.5"/>
+<line x1="740" y1="570" x2="740" y2="198" stroke="#0F6E56" stroke-width="2.5"/>
+<!-- EOL resistor across zone lines -->
+<line x1="560" y1="290" x2="610" y2="290" stroke="#0F6E56" stroke-width="2.5"/>
+<rect x="610" y="278" width="70" height="24" fill="#fff" stroke="#0F6E56" stroke-width="2.5"/>
+<line x1="680" y1="290" x2="740" y2="290" stroke="#0F6E56" stroke-width="2.5"/>
+<text x="645" y="266" text-anchor="middle" font-size="13" fill="#085041">Resistencia de fin de línea</text>
+<text x="645" y="322" text-anchor="middle" font-size="12" fill="#555">(valor por confirmar)</text>
+
+<!-- Pole 2 -->
+<circle cx="860" cy="400" r="6" fill="#fff" stroke="#2C2C2A" stroke-width="2"/>
+<circle cx="860" cy="520" r="6" fill="#fff" stroke="#2C2C2A" stroke-width="2"/>
+<line x1="860" y1="520" x2="890" y2="412" stroke="#2C2C2A" stroke-width="3"/>
+<text x="830" y="406" text-anchor="end" font-size="14" font-weight="bold" fill="#2C2C2A">POLO 2</text>
+<text x="860" y="352" text-anchor="middle" font-size="13" font-weight="bold" fill="#185FA5">+12 V de la fuente</text>
+<line x1="860" y1="358" x2="860" y2="394" stroke="#185FA5" stroke-width="2.5"/>
+<line x1="860" y1="526" x2="860" y2="560" stroke="#E24B4A" stroke-width="2.5"/>
+<rect x="800" y="560" width="120" height="52" fill="#FAECE7" stroke="#993C1D" stroke-width="2.5"/>
+<text x="860" y="582" text-anchor="middle" font-size="14" font-weight="bold" fill="#712B13">Sirena del</text>
+<text x="860" y="602" text-anchor="middle" font-size="14" font-weight="bold" fill="#712B13">depa 12 V</text>
+<text x="860" y="630" text-anchor="middle" font-size="12" fill="#555">(el otro cable vuelve a 0 V)</text>
+
+<!-- notes -->
+<text x="30" y="662" font-size="14" fill="#1a1a1a">El polo 1 funciona como un pulsador manual para el NB773. El polo 2 da energía a la sirena de ese depa. Los dos polos están aislados.</text>
+<text x="30" y="680" font-size="13" fill="#555">Varios detectores en el mismo depa: conecta sus contactos Relay A / Relay B en paralelo a la misma bobina.</text>
+</svg>
