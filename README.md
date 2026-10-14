@@ -18,5 +18,5 @@ Respuesta del equipo de producto de Wizmart sobre el modulo NB773 / Answer from 
 - **EN:** a 2-pole relay sits between the detector and the module for isolation: one pole to the module, the other to the apartment siren.
 
 Esquemas / Schematics: `esquema-relay-nb773-es.svg` y `esquema-relay-nb773-en.svg`.
-- **ES:** para el panel Ravel, la version del NB773 es la **-2** (confirmado por Wizmart).
-- **EN:** for the Ravel panel, the NB773 version is **-2** (confirmed by Wizmart).
+- **ES:** para el panel Ravel, la version del NB773 seria la **-2**. Wizmart dice que **si en teoria**, pero debe probarlo para confirmar (pendiente).
+- **EN:** for the Ravel panel, the NB773 version would be **-2**. Wizmart says **yes in theory**, but it still needs to test it to confirm (pending).
